@@ -1,0 +1,60 @@
+# ============================================
+# NDLP-Hybrid .gitignore
+# ============================================
+
+# GNS3 VM (sangat besar)
+A. GNS3/
+
+# Tools binary
+tools/
+
+# Virtual environment Python
+venv/
+.venv/
+env/
+
+# Dataset (di-generate ulang dengan scripts/01)
+data/
+
+# Model hasil training (di-train ulang)
+models/
+
+# Hasil evaluasi & anotasi pribadi
+evaluation/
+annotation_package_novi/
+Kirim Novi/
+
+# Backup
+backup_old/
+backup_v1/
+
+# Log files
+logs/
+*.log
+
+# Validasi NIK (opsional — kalau mau upload hapus baris ini)
+# nik_validation/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# File besar
+*.pkl
+*.vdi
+*.sav
+*.tar.gz
+*.tgz
+*.zip
+*.exe
+*.dll
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
