@@ -2,22 +2,22 @@
 # NDLP-Hybrid .gitignore
 # ============================================
 
-# GNS3 VM (sangat besar)
-A. GNS3/
-
-# Tools binary
-tools/
-
-# Virtual environment Python
+# Virtual Environment
 venv/
 .venv/
 env/
 
-# Dataset (di-generate ulang dengan scripts/01)
+# Dataset (di-generate ulang dengan scripts)
 data/
 
-# Model hasil training (di-train ulang)
+# Model hasil training (bisa di-train ulang)
 models/
+
+# GNS3 VM files (sangat besar)
+A. GNS3/
+
+# Tools binary
+tools/
 
 # Hasil evaluasi & anotasi pribadi
 evaluation/
@@ -31,9 +31,6 @@ backup_v1/
 # Log files
 logs/
 *.log
-
-# Validasi NIK (opsional — kalau mau upload hapus baris ini)
-# nik_validation/
 
 # Cache Python
 __pycache__/
@@ -50,11 +47,51 @@ __pycache__/
 *.exe
 *.dll
 
-# OS
+# OS & IDE
 .DS_Store
 Thumbs.db
-desktop.ini
-
-# IDE
 .vscode/
 .idea/
+
+# ============================================
+# SCRIPTS YANG DIKECUALIKAN
+# (duplikat, debug, tidak terpakai)
+# ============================================
+
+# Duplikat — sudah ada versi lebih baru
+scripts/07_features.py
+scripts/28_prepare_inter_annotation.py
+scripts/28_prepare_inter_annotation_v2.py
+scripts/32_compute_inter_kappa_fixed.py
+scripts/34_mcnemars_test_with_hmm.py
+scripts/35_mcnemars_test_dual_level.py
+
+# Digantikan versi v2
+scripts/14_train_hybrid_crf.py
+
+# Debug & inspeksi (tidak untuk produksi)
+scripts/debug_crf.py
+scripts/debug_crf_v2.py
+scripts/debug_hmm.py
+scripts/debug_hmm_prediction.py
+scripts/check_annotations.py
+scripts/check_annotations_v2.py
+scripts/check_hmm_structure.py
+scripts/05_inspect.py
+scripts/06_test_env.py
+scripts/test_install.py
+
+# Tidak terpakai
+scripts/16_nergrit_loader.py
+scripts/24_kappa_annotator.py
+scripts/30_annotator_novi.py
+scripts/patch_features_v2.py
+scripts/patch_generator.py
+scripts/prepare_labelstudio.py
+
+# Pycache scripts
+scripts/__pycache__/
+
+echo. >> .gitignore
+echo # Label Studio data >> .gitignore
+echo label_studio_200_samples.json >> .gitignore
