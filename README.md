@@ -53,25 +53,34 @@ pada lalu lintas HTTPS.
 \## Struktur Repository
 
 NDLP-Hybrid/
-
-├── scripts/          # Pipeline pengembangan (berurutan)
-
-│   ├── 01\_data\_generator.py      # Pembangkitan dataset sintetis
-
-│   ├── 02\_bio\_tagger.py          # Pelabelan BIO tagging
-
-│   ├── 07\_features\_v2.py         # Ekstraksi 47 fitur (Hybrid CRF)
-
-│   └── ...
-
-├── ndlp\_addon.py     # Addon mitmproxy (deployment)
-
-├── nik\_utils.py      # Utilitas validasi NIK Indonesia
-
-└── requirements.txt  # Dependensi library
-
-\---
-
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── nik_validation/              # Eksperimen validasi struktural NIK
+│   ├── generate_nik_valid.py
+│   ├── inject_and_test.py
+│   ├── analyze_log_v2.py
+│   ├── payloads.json
+│   ├── nik_valid_100.{csv,json,txt}
+│   └── run_test.sh
+└── scripts/                     # Pipeline utama (dieksekusi berurutan)
+    ├── 01_data_generator.py         # Pembangkitan dataset sintetis
+    ├── 02_bio_tagger.py             # Pelabelan BIO tagging otomatis
+    ├── 03_split_dataset.py         # Stratified split 80:10:10
+    ├── 04_validate.py
+    ├── 07_features_v2.py            # Ekstraksi 47 fitur Hybrid CRF
+    ├── 08_evaluator.py
+    ├── 10_train_regex.py … 13_train_hybrid_hmm.py   # Training 4 model non-CRF
+    ├── 15_adversarial_generator.py
+    ├── 17_naturalistic_generator.py # Pembangkit held-out naturalistic set
+    ├── 18_tag_holdout.py … 23_test_hard_adversarial.py
+    ├── 25_build_gazetteer.py
+    ├── 26_train_hybrid_crf_v2.py    # Training model final Hybrid CRF
+    ├── 27_evaluate_crf_v2.py        # Evaluasi model final
+    ├── 28_prepare_inter_annotation_v3.py  # Persiapan anotasi Cohen's Kappa
+    ├── 31_compute_inter_kappa.py    # Perhitungan Cohen's Kappa
+    ├── 33_mcnemars_test.py          # Uji signifikansi McNemar
+    └── nik_utils.py
 
 
 \## Cara Menjalankan
