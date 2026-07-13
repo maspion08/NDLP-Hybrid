@@ -1,0 +1,1602 @@
+[
+  {
+    "id": 1,
+    "data": {
+      "text": "PERMOHONAN AKSES SISTEM\n\nDari   : Puti Najwa Nuraini, S.E.I\nNIK    : 4450745001802278\nUnit   : Kepala Dinas Pendidikan\nKantor : Semarang\nKontak : 081219986695\n\nMemohon akses sistem informasi kepegawaian.",
+      "meta_format": "gov_letter",
+      "meta_index": 1
+    }
+  },
+  {
+    "id": 2,
+    "data": {
+      "text": "[2026-05-27 18:15] LOG: Pelanggan drg. Pardi Prasasta, M.TI. (NIK: 1233752405589605) menelepon dari nomor +6281161342023. Domisili: Jawa Tengah. Profesi: Kepala Bidang Anggaran.",
+      "meta_format": "cs_log",
+      "meta_index": 2
+    }
+  },
+  {
+    "id": 3,
+    "data": {
+      "text": "INSERT INTO pegawai (id, nik, nama, jabatan, lokasi, telepon) VALUES (3639, '6490035905586312', 'Candrakanta Gunarto, S.E.', 'Kepala Bagian Umum', 'Depok', '081871800086');",
+      "meta_format": "database_export",
+      "meta_index": 3
+    }
+  },
+  {
+    "id": 4,
+    "data": {
+      "text": "Mohon konfirmasi dari Margana Nasyiah (NIK: 8996494409763314, HP: 085354803944) selaku Asisten Sekretaris Daerah di Medan, mengenai permohonan akses dari Dr. Kenzie Salahudin, S.Pd dengan NIK 2776844904804728.",
+      "meta_format": "multi_context",
+      "meta_index": 4
+    }
+  },
+  {
+    "id": 5,
+    "data": {
+      "text": "{\"timestamp\": \"2026-06-03T18:15:34.454211\", \"level\": \"DEBUG\", \"service\": \"user-service\", \"event\": \"user_registration\", \"user\": {\"nik\": \"3521341303774925\", \"name\": \"Patricia Irawan\", \"phone\": \"+6285280773709\", \"position\": \"Kepala Bagian Umum\", \"location\": \"Bandung\"}}",
+      "meta_format": "json_log",
+      "meta_index": 5
+    }
+  },
+  {
+    "id": 6,
+    "data": {
+      "text": "Surat Keterangan No. 422/SK/2025\n\nKepala kantor menerangkan bahwa Cahyono Wibisono dengan NIK 4231614708533683 adalah benar bertugas sebagai Sekretaris Daerah di Jawa Timur. Yang bersangkutan dapat dihubungi pada nomor 081263417264.",
+      "meta_format": "gov_letter",
+      "meta_index": 6
+    }
+  },
+  {
+    "id": 7,
+    "data": {
+      "text": "Hormat saya,\n\nReksa Nainggolan\nKepala Bagian Umum\nKantor: Denpasar\nNIK: 9461740711924736\nHP: +6281301377995",
+      "meta_format": "email_signature",
+      "meta_index": 7
+    }
+  },
+  {
+    "id": 8,
+    "data": {
+      "text": "Mohon konfirmasi dari Farhunnisa Natsir (NIK: 1485544704778353, HP: 081116058020) selaku Lurah di Banjarmasin, mengenai permohonan akses dari Candrakanta Jailani dengan NIK 5448412207952806.",
+      "meta_format": "multi_context",
+      "meta_index": 8
+    }
+  },
+  {
+    "id": 9,
+    "data": {
+      "text": "nama,nik,telepon,jabatan,lokasi\nR.M. Candrakanta Latupono, M.TI.,5792741305693266,081547171495,Sekretaris Daerah,Riau",
+      "meta_format": "tabular",
+      "meta_index": 9
+    }
+  },
+  {
+    "id": 10,
+    "data": {
+      "text": "3515|7323485410587266|Okto Budiyanto|Kepala Dinas Pendidikan|Makassar|082204394923",
+      "meta_format": "database_export",
+      "meta_index": 10
+    }
+  },
+  {
+    "id": 11,
+    "data": {
+      "text": "Hormat saya,\n\ndr. Asmadi Prabowo\nStaf Administrasi\nKantor: Bandung\nNIK: 8466795110787849\nHP: 085680737610",
+      "meta_format": "email_signature",
+      "meta_index": 11
+    }
+  },
+  {
+    "id": 12,
+    "data": {
+      "text": "nama,nik,telepon,jabatan,lokasi\ndrg. Aurora Lailasari,6676330708884178,081538749579,Camat,Jawa Barat",
+      "meta_format": "tabular",
+      "meta_index": 12
+    }
+  },
+  {
+    "id": 13,
+    "data": {
+      "text": "Dalam meeting koordinasi, Ir. Adiarja Dongoran, S.Pt (NIK 2849126204776103) sebagai Lurah dari Pekanbaru menyampaikan laporan. Beliau dapat dihubungi di +6281913844428 untuk keperluan tindak lanjut.",
+      "meta_format": "multi_context",
+      "meta_index": 13
+    }
+  },
+  {
+    "id": 14,
+    "data": {
+      "text": "Best regards,\n\nPraba Januar | Lurah\nLokasi: Manado\nID: 5058164101716456\nMobile: 085334412901",
+      "meta_format": "email_signature",
+      "meta_index": 14
+    }
+  },
+  {
+    "id": 15,
+    "data": {
+      "text": "| Nama | NIK | Telepon | Jabatan | Lokasi |\n|------|-----|---------|---------|--------|\n| Dt. Umaya Wacana, S.Pd | 4677574508870257 | 085257889226 | Asisten Sekretaris Daerah | Denpasar |",
+      "meta_format": "tabular",
+      "meta_index": 15
+    }
+  },
+  {
+    "id": 16,
+    "data": {
+      "text": "| Nama | NIK | Telepon | Jabatan | Lokasi |\n|------|-----|---------|---------|--------|\n| R. Kardi Pertiwi | 5235481001783328 | +6285248804469 | Asisten Sekretaris Daerah | Padang |",
+      "meta_format": "tabular",
+      "meta_index": 16
+    }
+  },
+  {
+    "id": 17,
+    "data": {
+      "text": "[2026-06-03 18:15:34] DB_INSERT: id=4008; nik=4421921611871037; nama=Puspa Wulandari, S.H.; jabatan=Kepala Bidang Anggaran; lokasi=Pekanbaru; telepon=+6281355561262",
+      "meta_format": "database_export",
+      "meta_index": 17
+    }
+  },
+  {
+    "id": 18,
+    "data": {
+      "text": "Komunikasi internal: Lurah Elvina Wahyuni di Bandung (kontak 082285593183, NIK 7449405111751269) telah menyetujui permintaan dari rekan kerja.",
+      "meta_format": "multi_context",
+      "meta_index": 18
+    }
+  },
+  {
+    "id": 19,
+    "data": {
+      "text": "Salam hangat,\nUda Hakim\nNIK: 2035681012604492\nAsisten Sekretaris Daerah - Jawa Timur\nTelepon: 082109147624",
+      "meta_format": "email_signature",
+      "meta_index": 19
+    }
+  },
+  {
+    "id": 20,
+    "data": {
+      "text": "Salam hangat,\nMarsito Wulandari\nNIK: 4571152111748259\nKepala Bagian Umum - Surabaya\nTelepon: 081808185181",
+      "meta_format": "email_signature",
+      "meta_index": 20
+    }
+  },
+  {
+    "id": 21,
+    "data": {
+      "text": "{\"@timestamp\": \"2026-06-03T18:15:34.463659\", \"log_type\": \"audit\", \"action\": \"data_access\", \"actor\": {\"name\": \"Qori Sinaga, S.H.\", \"id\": \"4567795704937023\", \"phone\": \"085367487665\"}, \"metadata\": {\"department\": \"Staf Administrasi\", \"office\": \"Yogyakarta\"}}",
+      "meta_format": "json_log",
+      "meta_index": 21
+    }
+  },
+  {
+    "id": 22,
+    "data": {
+      "text": "[2026-05-18 18:15] CS_AGENT: Validasi pelanggan - Nama: Vanya Wahyuni, NIK: 2450702808654445, HP: +6285126007346, Lokasi: Jakarta, Jabatan: Staf Administrasi",
+      "meta_format": "cs_log",
+      "meta_index": 22
+    }
+  },
+  {
+    "id": 23,
+    "data": {
+      "text": "Komunikasi internal: Sekretaris Daerah Amalia Budiyanto di Jawa Timur (kontak 082181627665, NIK 8619246806540318) telah menyetujui permintaan dari rekan kerja.",
+      "meta_format": "multi_context",
+      "meta_index": 23
+    }
+  },
+  {
+    "id": 24,
+    "data": {
+      "text": "Surat Keterangan No. 975/SK/2024\n\nKepala kantor menerangkan bahwa drg. Estiono Budiyanto dengan NIK 8924992409807628 adalah benar bertugas sebagai Camat di Palembang. Yang bersangkutan dapat dihubungi pada nomor 085597476170.",
+      "meta_format": "gov_letter",
+      "meta_index": 24
+    }
+  },
+  {
+    "id": 25,
+    "data": {
+      "text": "Best regards,\n\nFitriani Samosir | Kepala Bidang Anggaran\nLokasi: Medan\nID: 4718011401675154\nMobile: 085104287952",
+      "meta_format": "email_signature",
+      "meta_index": 25
+    }
+  },
+  {
+    "id": 26,
+    "data": {
+      "text": "Best regards,\n\ndrg. Hardi Ramadan, S.Psi | Kepala Dinas Kesehatan\nLokasi: Jawa Timur\nID: 9175702012508907\nMobile: 081336819955",
+      "meta_format": "email_signature",
+      "meta_index": 26
+    }
+  },
+  {
+    "id": 27,
+    "data": {
+      "text": "Salam hangat,\nR. Jail Maryati\nNIK: 8811212708734146\nCamat - Pontianak\nTelepon: 085690960422",
+      "meta_format": "email_signature",
+      "meta_index": 27
+    }
+  },
+  {
+    "id": 28,
+    "data": {
+      "text": "Salam hangat,\ndr. Laras Rajata\nNIK: 1451726209746467\nKepala Dinas Kesehatan - Depok\nTelepon: 081731246868",
+      "meta_format": "email_signature",
+      "meta_index": 28
+    }
+  },
+  {
+    "id": 29,
+    "data": {
+      "text": "{\"ts\":\"2026-06-03T18:15:34.462603\",\"msg\":\"User profile updated\",\"data\":{\"nik\":\"4589510808957751\",\"nama\":\"Ir. Fitriani Sihombing, S.Pd\",\"hp\":\"081535366798\",\"jbt\":\"Kepala Dinas Pendidikan\",\"kt\":\"Palembang\"}}",
+      "meta_format": "json_log",
+      "meta_index": 29
+    }
+  },
+  {
+    "id": 30,
+    "data": {
+      "text": "{\"timestamp\": \"2026-06-03T18:15:34.461546\", \"level\": \"DEBUG\", \"service\": \"user-service\", \"event\": \"user_registration\", \"user\": {\"nik\": \"1130394905760169\", \"name\": \"R. Janet Simanjuntak\", \"phone\": \"+6281965693529\", \"position\": \"Kepala Dinas Kesehatan\", \"location\": \"Aceh\"}}",
+      "meta_format": "json_log",
+      "meta_index": 30
+    }
+  },
+  {
+    "id": 31,
+    "data": {
+      "text": "[2026-05-26 18:15] LOG: Pelanggan Paulin Hassanah (NIK: 8074554807643553) menelepon dari nomor 082213383184. Domisili: Padang. Profesi: Kepala Bidang Anggaran.",
+      "meta_format": "cs_log",
+      "meta_index": 31
+    }
+  },
+  {
+    "id": 32,
+    "data": {
+      "text": "<2026-05-28 18:15> Helpdesk berbicara dengan Chandra Pudjiastuti (HP 081872554717, NIK 3558364406653432, Lurah di Malang)",
+      "meta_format": "cs_log",
+      "meta_index": 32
+    }
+  },
+  {
+    "id": 33,
+    "data": {
+      "text": "[2026-06-03 18:15:34] DB_INSERT: id=2456; nik=1205962009836002; nama=Artawan Simbolon; jabatan=Kepala Dinas Kesehatan; lokasi=Bekasi; telepon=081346947532",
+      "meta_format": "database_export",
+      "meta_index": 33
+    }
+  },
+  {
+    "id": 34,
+    "data": {
+      "text": "Hormat saya,\n\nPrayitna Irawan, M.Kom.\nKepala Bagian Umum\nKantor: Bandung\nNIK: 5364105101868733\nHP: 085309564229",
+      "meta_format": "email_signature",
+      "meta_index": 34
+    }
+  },
+  {
+    "id": 35,
+    "data": {
+      "text": "Mohon konfirmasi dari Setya Mayasari (NIK: 7260851707827237, HP: 081486500970) selaku Kepala Dinas Pendidikan di Jawa Tengah, mengenai permohonan akses dari Juli Januar, M.TI. dengan NIK 8454781905548635.",
+      "meta_format": "multi_context",
+      "meta_index": 35
+    }
+  },
+  {
+    "id": 36,
+    "data": {
+      "text": "BERITA ACARA - Pelaksanaan kegiatan dilakukan oleh Sdr/i Unggul Hariyah (NIK: 8043310502723878) selaku Kepala Bagian Umum pada wilayah kerja Malang. Untuk koordinasi lebih lanjut, dapat menghubungi 085564997616.",
+      "meta_format": "gov_letter",
+      "meta_index": 36
+    }
+  },
+  {
+    "id": 37,
+    "data": {
+      "text": "{\"@timestamp\": \"2026-06-03T18:15:34.457358\", \"log_type\": \"audit\", \"action\": \"data_access\", \"actor\": {\"name\": \"Hj. Puji Najmudin\", \"id\": \"7039666111999150\", \"phone\": \"081723637879\"}, \"metadata\": {\"department\": \"Kepala Dinas Pendidikan\", \"office\": \"Bekasi\"}}",
+      "meta_format": "json_log",
+      "meta_index": 37
+    }
+  },
+  {
+    "id": 38,
+    "data": {
+      "text": "{\"timestamp\": \"2026-06-03T18:15:34.458392\", \"level\": \"WARN\", \"service\": \"user-service\", \"event\": \"user_registration\", \"user\": {\"nik\": \"7745226609967384\", \"name\": \"Ilsa Suwarno\", \"phone\": \"081794187190\", \"position\": \"Camat\", \"location\": \"Pontianak\"}}",
+      "meta_format": "json_log",
+      "meta_index": 38
+    }
+  },
+  {
+    "id": 39,
+    "data": {
+      "text": "Dalam meeting koordinasi, Ella Firgantoro (NIK 2453975011735314) sebagai Kepala Dinas Pendidikan dari Jawa Barat menyampaikan laporan. Beliau dapat dihubungi di 081346926031 untuk keperluan tindak lanjut.",
+      "meta_format": "multi_context",
+      "meta_index": 39
+    }
+  },
+  {
+    "id": 40,
+    "data": {
+      "text": "Best regards,\n\nNajib Saragih, S.IP | Lurah\nLokasi: Bekasi\nID: 4461462706654789\nMobile: 081171290364",
+      "meta_format": "email_signature",
+      "meta_index": 40
+    }
+  },
+  {
+    "id": 41,
+    "data": {
+      "text": "Hormat saya,\n\nH. Cakrawangsa Sudiati, S.Farm\nLurah\nKantor: Jawa Barat\nNIK: 7769400110722504\nHP: +6282260185845",
+      "meta_format": "email_signature",
+      "meta_index": 41
+    }
+  },
+  {
+    "id": 42,
+    "data": {
+      "text": "| Nama | NIK | Telepon | Jabatan | Lokasi |\n|------|-----|---------|---------|--------|\n| Faizah Budiyanto | 5879736802932680 | 082241747537 | Sekretaris Daerah | Palembang |",
+      "meta_format": "tabular",
+      "meta_index": 42
+    }
+  },
+  {
+    "id": 43,
+    "data": {
+      "text": "2047|1839954802587444|Martana Maryati|Kepala Dinas Kesehatan|Yogyakarta|085749814168",
+      "meta_format": "database_export",
+      "meta_index": 43
+    }
+  },
+  {
+    "id": 44,
+    "data": {
+      "text": "<2026-05-13 18:15> Helpdesk berbicara dengan Bakianto Winarsih (HP 081615027611, NIK 6476512011547670, Staf Administrasi di Aceh)",
+      "meta_format": "cs_log",
+      "meta_index": 44
+    }
+  },
+  {
+    "id": 45,
+    "data": {
+      "text": "{\"ts\":\"2026-06-03T18:15:34.460489\",\"msg\":\"User profile updated\",\"data\":{\"nik\":\"2483031006983319\",\"nama\":\"Elvina Aryani, S.IP\",\"hp\":\"+6281674036209\",\"jbt\":\"Kepala Dinas Pendidikan\",\"kt\":\"Jawa Barat\"}}",
+      "meta_format": "json_log",
+      "meta_index": 45
+    }
+  },
+  {
+    "id": 46,
+    "data": {
+      "text": "nama,nik,telepon,jabatan,lokasi\nSiska Wahyudin,3238164504635627,081529884578,Kepala Dinas Kesehatan,Bandung",
+      "meta_format": "tabular",
+      "meta_index": 46
+    }
+  },
+  {
+    "id": 47,
+    "data": {
+      "text": "[2026-06-03 18:15:34] DB_INSERT: id=4154; nik=3442625106659822; nama=dr. Purwa Maulana; jabatan=Sekretaris Daerah; lokasi=Semarang; telepon=081280245317",
+      "meta_format": "database_export",
+      "meta_index": 47
+    }
+  },
+  {
+    "id": 48,
+    "data": {
+      "text": "TICKET #8187 - 2026-05-13 18:15\nPelanggan: Luwar Hastuti\nNIK: 2179310211920852\nKontak: 081347858028\nKota: Jawa Timur\nJabatan: Kepala Bagian Umum",
+      "meta_format": "cs_log",
+      "meta_index": 48
+    }
+  },
+  {
+    "id": 49,
+    "data": {
+      "text": "{\"@timestamp\": \"2026-06-03T18:15:34.463659\", \"log_type\": \"audit\", \"action\": \"data_access\", \"actor\": {\"name\": \"R.A. Laras Usamah, M.Kom.\", \"id\": \"2029776102704958\", \"phone\": \"+6281822923888\"}, \"metadata\": {\"department\": \"Camat\", \"office\": \"Bandung\"}}",
+      "meta_format": "json_log",
+      "meta_index": 49
+    }
+  },
+  {
+    "id": 50,
+    "data": {
+      "text": "Salam hangat,\nJefri Widodo\nNIK: 2414310107862473\nSekretaris Daerah - Banjarmasin\nTelepon: 085611982845",
+      "meta_format": "email_signature",
+      "meta_index": 50
+    }
+  },
+  {
+    "id": 51,
+    "data": {
+      "text": "Yang bertanda tangan di bawah ini:\n\nNama         : Kasiran Fujiati\nNIK          : 2254152410739576\nJabatan      : Lurah\nWilayah Kerja: Pekanbaru\nNo. Telepon  : 082225015143\n\ndengan ini menyatakan...",
+      "meta_format": "gov_letter",
+      "meta_index": 51
+    }
+  },
+  {
+    "id": 52,
+    "data": {
+      "text": "nama\tnik\ttelepon\tjabatan\tlokasi\nTiara Nasyidah, S.Pd\t2502854408895085\t081668440912\tKepala Dinas Kesehatan\tSemarang",
+      "meta_format": "tabular",
+      "meta_index": 52
+    }
+  },
+  {
+    "id": 53,
+    "data": {
+      "text": "[2026-05-06 18:15] LOG: Pelanggan Wani Lazuardi (NIK: 5282525001854162) menelepon dari nomor 081357592350. Domisili: Yogyakarta. Profesi: Camat.",
+      "meta_format": "cs_log",
+      "meta_index": 53
+    }
+  },
+  {
+    "id": 54,
+    "data": {
+      "text": "{\"ts\":\"2026-06-03T18:15:34.454211\",\"msg\":\"User profile updated\",\"data\":{\"nik\":\"7051406711886524\",\"nama\":\"Cut Karimah Sirait, S.T.\",\"hp\":\"081934747135\",\"jbt\":\"Staf Administrasi\",\"kt\":\"Manado\"}}",
+      "meta_format": "json_log",
+      "meta_index": 54
+    }
+  },
+  {
+    "id": 55,
+    "data": {
+      "text": "{\"@timestamp\": \"2026-06-03T18:15:34.463659\", \"log_type\": \"audit\", \"action\": \"data_access\", \"actor\": {\"name\": \"Galih Fujiati\", \"id\": \"2026361105809595\", \"phone\": \"+6281543459042\"}, \"metadata\": {\"department\": \"Kepala Bidang Anggaran\", \"office\": \"Riau\"}}",
+      "meta_format": "json_log",
+      "meta_index": 55
+    }
+  },
+  {
+    "id": 56,
+    "data": {
+      "text": "Terima kasih,\n\nLabuh Astuti (Kepala Dinas Pendidikan)\n📧 NIK: 8320715412573264\n📱 081589987349\n📍 Padang",
+      "meta_format": "email_signature",
+      "meta_index": 56
+    }
+  },
+  {
+    "id": 57,
+    "data": {
+      "text": "{\"@timestamp\": \"2026-06-03T18:15:34.453133\", \"log_type\": \"audit\", \"action\": \"data_access\", \"actor\": {\"name\": \"Ellis Putra\", \"id\": \"8079204903891685\", \"phone\": \"081436903586\"}, \"metadata\": {\"department\": \"Staf Administrasi\", \"office\": \"Bekasi\"}}",
+      "meta_format": "json_log",
+      "meta_index": 57
+    }
+  },
+  {
+    "id": 58,
+    "data": {
+      "text": "PERMOHONAN AKSES SISTEM\n\nDari   : Lalita Firgantoro\nNIK    : 6043584201734103\nUnit   : Kepala Dinas Pendidikan\nKantor : Jawa Timur\nKontak : 085217944704\n\nMemohon akses sistem informasi kepegawaian.",
+      "meta_format": "gov_letter",
+      "meta_index": 58
+    }
+  },
+  {
+    "id": 59,
+    "data": {
+      "text": "nama,nik,telepon,jabatan,lokasi\nR. Titi Nurdiyanti, S.I.Kom,6846206001809148,+6281367113989,Kepala Bagian Umum,Malang",
+      "meta_format": "tabular",
+      "meta_index": 59
+    }
+  },
+  {
+    "id": 60,
+    "data": {
+      "text": "Yang bertanda tangan di bawah ini:\n\nNama         : Vera Laksita\nNIK          : 2080171411740263\nJabatan      : Staf Administrasi\nWilayah Kerja: Depok\nNo. Telepon  : 081570673679\n\ndengan ini menyatakan...",
+      "meta_format": "gov_letter",
+      "meta_index": 60
+    }
+  },
+  {
+    "id": 61,
+    "data": {
+      "text": "Komunikasi internal: Sekretaris Daerah drg. Jati Prakasa di Semarang (kontak +6285516997215, NIK 8434290604551276) telah menyetujui permintaan dari rekan kerja.",
+      "meta_format": "multi_context",
+      "meta_index": 61
+    }
+  },
+  {
+    "id": 62,
+    "data": {
+      "text": "BERITA ACARA - Pelaksanaan kegiatan dilakukan oleh Sdr/i Carub Kusmawati (NIK: 9126785409602377) selaku Kepala Dinas Kesehatan pada wilayah kerja Manado. Untuk koordinasi lebih lanjut, dapat menghubungi 082251925328.",
+      "meta_format": "gov_letter",
+      "meta_index": 62
+    }
+  },
+  {
+    "id": 63,
+    "data": {
+      "text": "4107,4686730111619046,Rina Hutasoit,Camat,Manado,081779729922",
+      "meta_format": "database_export",
+      "meta_index": 63
+    }
+  },
+  {
+    "id": 64,
+    "data": {
+      "text": "<2026-05-22 18:15> Helpdesk berbicara dengan Kamila Utama (HP 081112611421, NIK 3158521009971431, Camat di Bogor)",
+      "meta_format": "cs_log",
+      "meta_index": 64
+    }
+  },
+  {
+    "id": 65,
+    "data": {
+      "text": "1585|6791614507916298|Maras Nainggolan, S.Pt|Kepala Dinas Kesehatan|Surabaya|082224933557",
+      "meta_format": "database_export",
+      "meta_index": 65
+    }
+  },
+  {
+    "id": 66,
+    "data": {
+      "text": "{\"timestamp\": \"2026-06-03T18:15:34.457358\", \"level\": \"DEBUG\", \"service\": \"user-service\", \"event\": \"user_registration\", \"user\": {\"nik\": \"9207010107687512\", \"name\": \"R.M. Panca Hutagalung, M.M.\", \"phone\": \"+6285514231057\", \"position\": \"Kepala Bagian Umum\", \"location\": \"Semarang\"}}",
+      "meta_format": "json_log",
+      "meta_index": 66
+    }
+  },
+  {
+    "id": 67,
+    "data": {
+      "text": "INSERT INTO pegawai (id, nik, nama, jabatan, lokasi, telepon) VALUES (4514, '1557580512866101', 'Fathonah Januar', 'Kepala Bidang Anggaran', 'Jawa Tengah', '081213330985');",
+      "meta_format": "database_export",
+      "meta_index": 67
+    }
+  },
+  {
+    "id": 68,
+    "data": {
+      "text": "nama|nik|telepon|jabatan|lokasi\nNasim Maulana|4815466609527317|081198902414|Staf Administrasi|Medan",
+      "meta_format": "tabular",
+      "meta_index": 68
+    }
+  },
+  {
+    "id": 69,
+    "data": {
+      "text": "Surat Keterangan No. 329/SK/2024\n\nKepala kantor menerangkan bahwa Darmana Sihotang, S.Sos dengan NIK 5839462806987790 adalah benar bertugas sebagai Kepala Bidang Anggaran di Pekanbaru. Yang bersangkutan dapat dihubungi pada nomor 082142942991.",
+      "meta_format": "gov_letter",
+      "meta_index": 69
+    }
+  },
+  {
+    "id": 70,
+    "data": {
+      "text": "{\"ts\":\"2026-06-03T18:15:34.461546\",\"msg\":\"User profile updated\",\"data\":{\"nik\":\"6399750409536568\",\"nama\":\"Omar Agustina\",\"hp\":\"+6285558886005\",\"jbt\":\"Sekretaris Daerah\",\"kt\":\"Manado\"}}",
+      "meta_format": "json_log",
+      "meta_index": 70
+    }
+  },
+  {
+    "id": 71,
+    "data": {
+      "text": "6537|8829862103510785|Tgk. Elma Agustina, S.IP|Kepala Dinas Pendidikan|Banjarmasin|082149655372",
+      "meta_format": "database_export",
+      "meta_index": 71
+    }
+  },
+  {
+    "id": 72,
+    "data": {
+      "text": "{\"@timestamp\": \"2026-06-03T18:15:34.460489\", \"log_type\": \"audit\", \"action\": \"data_access\", \"actor\": {\"name\": \"Purwa Rajasa, S.IP\", \"id\": \"2196215508739757\", \"phone\": \"085610150036\"}, \"metadata\": {\"department\": \"Staf Administrasi\", \"office\": \"Jakarta\"}}",
+      "meta_format": "json_log",
+      "meta_index": 72
+    }
+  },
+  {
+    "id": 73,
+    "data": {
+      "text": "Komunikasi internal: Staf Administrasi Wardaya Anggriawan di Jawa Tengah (kontak +6281925798758, NIK 1532826204767585) telah menyetujui permintaan dari rekan kerja.",
+      "meta_format": "multi_context",
+      "meta_index": 73
+    }
+  },
+  {
+    "id": 74,
+    "data": {
+      "text": "5227|1758962812588610|Saadat Rajasa|Asisten Sekretaris Daerah|Manado|085690593036",
+      "meta_format": "database_export",
+      "meta_index": 74
+    }
+  },
+  {
+    "id": 75,
+    "data": {
+      "text": "{\"@timestamp\": \"2026-06-03T18:15:34.460489\", \"log_type\": \"audit\", \"action\": \"data_access\", \"actor\": {\"name\": \"Dt. Malik Suryono, M.Kom.\", \"id\": \"6753781510604606\", \"phone\": \"081193483368\"}, \"metadata\": {\"department\": \"Camat\", \"office\": \"Depok\"}}",
+      "meta_format": "json_log",
+      "meta_index": 75
+    }
+  },
+  {
+    "id": 76,
+    "data": {
+      "text": "Yang bertanda tangan di bawah ini:\n\nNama         : Gasti Wibowo\nNIK          : 3558190705938747\nJabatan      : Kepala Dinas Pendidikan\nWilayah Kerja: Surabaya\nNo. Telepon  : 081368709597\n\ndengan ini menyatakan...",
+      "meta_format": "gov_letter",
+      "meta_index": 76
+    }
+  },
+  {
+    "id": 77,
+    "data": {
+      "text": "[2026-06-01 18:15] LOG: Pelanggan Bahuwirya Budiyanto (NIK: 2693991203846965) menelepon dari nomor 081492482417. Domisili: Aceh. Profesi: Camat.",
+      "meta_format": "cs_log",
+      "meta_index": 77
+    }
+  },
+  {
+    "id": 78,
+    "data": {
+      "text": "{\"@timestamp\": \"2026-06-03T18:15:34.459432\", \"log_type\": \"audit\", \"action\": \"data_access\", \"actor\": {\"name\": \"Zalindra Ardianto\", \"id\": \"1881245607931661\", \"phone\": \"+6285735051229\"}, \"metadata\": {\"department\": \"Lurah\", \"office\": \"Pekanbaru\"}}",
+      "meta_format": "json_log",
+      "meta_index": 78
+    }
+  },
+  {
+    "id": 79,
+    "data": {
+      "text": "Yang bertanda tangan di bawah ini:\n\nNama         : Samiah Prasasta\nNIK          : 8203321811676266\nJabatan      : Staf Administrasi\nWilayah Kerja: Malang\nNo. Telepon  : 085502046890\n\ndengan ini menyatakan...",
+      "meta_format": "gov_letter",
+      "meta_index": 79
+    }
+  },
+  {
+    "id": 80,
+    "data": {
+      "text": "PERMOHONAN AKSES SISTEM\n\nDari   : Shania Dongoran, S.IP\nNIK    : 5088881511726551\nUnit   : Staf Administrasi\nKantor : Bekasi\nKontak : +6281803541247\n\nMemohon akses sistem informasi kepegawaian.",
+      "meta_format": "gov_letter",
+      "meta_index": 80
+    }
+  },
+  {
+    "id": 81,
+    "data": {
+      "text": "TICKET #9466 - 2026-05-24 18:15\nPelanggan: Rina Riyanti\nNIK: 3438664609992894\nKontak: +6282106552370\nKota: Banjarmasin\nJabatan: Kepala Dinas Kesehatan",
+      "meta_format": "cs_log",
+      "meta_index": 81
+    }
+  },
+  {
+    "id": 82,
+    "data": {
+      "text": "Best regards,\n\nPrayoga Purwanti | Sekretaris Daerah\nLokasi: Jawa Barat\nID: 5563210408508469\nMobile: 082394810155",
+      "meta_format": "email_signature",
+      "meta_index": 82
+    }
+  },
+  {
+    "id": 83,
+    "data": {
+      "text": "INSERT INTO pegawai (id, nik, nama, jabatan, lokasi, telepon) VALUES (9970, '4723805505745393', 'Vivi Pratiwi', 'Kepala Dinas Pendidikan', 'Bekasi', '085167419031');",
+      "meta_format": "database_export",
+      "meta_index": 83
+    }
+  },
+  {
+    "id": 84,
+    "data": {
+      "text": "nama\tnik\ttelepon\tjabatan\tlokasi\nEmong Hidayat\t8582074202806120\t+6282189875136\tKepala Bagian Umum\tPekanbaru",
+      "meta_format": "tabular",
+      "meta_index": 84
+    }
+  },
+  {
+    "id": 85,
+    "data": {
+      "text": "| Nama | NIK | Telepon | Jabatan | Lokasi |\n|------|-----|---------|---------|--------|\n| Irma Mansur | 7180536111502746 | 085505628138 | Kepala Dinas Pendidikan | Pontianak |",
+      "meta_format": "tabular",
+      "meta_index": 85
+    }
+  },
+  {
+    "id": 86,
+    "data": {
+      "text": "Hormat saya,\n\nGarang Sihombing, S.Kom\nCamat\nKantor: Jawa Timur\nNIK: 4227860910829717\nHP: +6282179274472",
+      "meta_format": "email_signature",
+      "meta_index": 86
+    }
+  },
+  {
+    "id": 87,
+    "data": {
+      "text": "Dalam meeting koordinasi, Keisha Haryanti (NIK 2036335010617592) sebagai Sekretaris Daerah dari Jawa Barat menyampaikan laporan. Beliau dapat dihubungi di 085380419212 untuk keperluan tindak lanjut.",
+      "meta_format": "multi_context",
+      "meta_index": 87
+    }
+  },
+  {
+    "id": 88,
+    "data": {
+      "text": "[2026-06-03 18:15:34] DB_INSERT: id=7246; nik=6663721912779645; nama=Ir. Hesti Prabowo; jabatan=Asisten Sekretaris Daerah; lokasi=Banjarmasin; telepon=+6282377352494",
+      "meta_format": "database_export",
+      "meta_index": 88
+    }
+  },
+  {
+    "id": 89,
+    "data": {
+      "text": "nama,nik,telepon,jabatan,lokasi\nGatra Gunawan,7566686309829715,081937252492,Sekretaris Daerah,Jawa Tengah",
+      "meta_format": "tabular",
+      "meta_index": 89
+    }
+  },
+  {
+    "id": 90,
+    "data": {
+      "text": "Best regards,\n\nCut Jessica Pratama, S.Sos | Sekretaris Daerah\nLokasi: Padang\nID: 1120711512805219\nMobile: 082359290868",
+      "meta_format": "email_signature",
+      "meta_index": 90
+    }
+  },
+  {
+    "id": 91,
+    "data": {
+      "text": "<2026-05-04 18:15> Helpdesk berbicara dengan Faizah Mulyani (HP 085692742256, NIK 7423856809911564, Staf Administrasi di Tangerang)",
+      "meta_format": "cs_log",
+      "meta_index": 91
+    }
+  },
+  {
+    "id": 92,
+    "data": {
+      "text": "{\"timestamp\": \"2026-06-03T18:15:34.455181\", \"level\": \"WARN\", \"service\": \"user-service\", \"event\": \"user_registration\", \"user\": {\"nik\": \"3945961007737372\", \"name\": \"Tgk. Azalea Adriansyah\", \"phone\": \"082202623148\", \"position\": \"Staf Administrasi\", \"location\": \"Pekanbaru\"}}",
+      "meta_format": "json_log",
+      "meta_index": 92
+    }
+  },
+  {
+    "id": 93,
+    "data": {
+      "text": "PERMOHONAN AKSES SISTEM\n\nDari   : Drs. Aurora Prabowo\nNIK    : 9087802210744001\nUnit   : Camat\nKantor : Denpasar\nKontak : +6285557808221\n\nMemohon akses sistem informasi kepegawaian.",
+      "meta_format": "gov_letter",
+      "meta_index": 93
+    }
+  },
+  {
+    "id": 94,
+    "data": {
+      "text": "2064|7145712002998826|Drs. Ina Damanik, S.Ked|Kepala Dinas Pendidikan|Medan|081255897370",
+      "meta_format": "database_export",
+      "meta_index": 94
+    }
+  },
+  {
+    "id": 95,
+    "data": {
+      "text": "[2026-05-07 18:15] LOG: Pelanggan KH. Taswir Adriansyah (NIK: 7805684503868153) menelepon dari nomor +6281743326853. Domisili: Bekasi. Profesi: Kepala Dinas Pendidikan.",
+      "meta_format": "cs_log",
+      "meta_index": 95
+    }
+  },
+  {
+    "id": 96,
+    "data": {
+      "text": "nama|nik|telepon|jabatan|lokasi\nHamima Tamba|8709135809951883|+6285183615682|Camat|Jawa Tengah",
+      "meta_format": "tabular",
+      "meta_index": 96
+    }
+  },
+  {
+    "id": 97,
+    "data": {
+      "text": "Komunikasi internal: Kepala Bagian Umum Drs. Hardi Haryanto, S.Gz di Pontianak (kontak 085789403456, NIK 5611354501772415) telah menyetujui permintaan dari rekan kerja.",
+      "meta_format": "multi_context",
+      "meta_index": 97
+    }
+  },
+  {
+    "id": 98,
+    "data": {
+      "text": "<2026-05-14 18:15> Helpdesk berbicara dengan Lasmono Halimah (HP 081672685422, NIK 6057231206609585, Lurah di Semarang)",
+      "meta_format": "cs_log",
+      "meta_index": 98
+    }
+  },
+  {
+    "id": 99,
+    "data": {
+      "text": "[2026-05-05 18:15] CS_AGENT: Validasi pelanggan - Nama: Kiandra Nashiruddin, NIK: 8730726706510278, HP: 081884950730, Lokasi: Denpasar, Jabatan: Kepala Bagian Umum",
+      "meta_format": "cs_log",
+      "meta_index": 99
+    }
+  },
+  {
+    "id": 100,
+    "data": {
+      "text": "{\"@timestamp\": \"2026-06-03T18:15:34.458392\", \"log_type\": \"audit\", \"action\": \"data_access\", \"actor\": {\"name\": \"Viman Setiawan\", \"id\": \"3339341710943485\", \"phone\": \"+6285169487791\"}, \"metadata\": {\"department\": \"Kepala Bagian Umum\", \"office\": \"Jawa Timur\"}}",
+      "meta_format": "json_log",
+      "meta_index": 100
+    }
+  },
+  {
+    "id": 101,
+    "data": {
+      "text": "TICKET #2052 - 2026-05-24 18:15\nPelanggan: Puti Diana Hidayat\nNIK: 5430675903618764\nKontak: 081204833400\nKota: Medan\nJabatan: Kepala Bidang Anggaran",
+      "meta_format": "cs_log",
+      "meta_index": 101
+    }
+  },
+  {
+    "id": 102,
+    "data": {
+      "text": "INSERT INTO pegawai (id, nik, nama, jabatan, lokasi, telepon) VALUES (5512, '4915591606632379', 'Purwadi Mayasari', 'Kepala Dinas Pendidikan', 'Bekasi', '081966952525');",
+      "meta_format": "database_export",
+      "meta_index": 102
+    }
+  },
+  {
+    "id": 103,
+    "data": {
+      "text": "{\"timestamp\": \"2026-06-03T18:15:34.453133\", \"level\": \"INFO\", \"service\": \"user-service\", \"event\": \"user_registration\", \"user\": {\"nik\": \"8879884409788998\", \"name\": \"Sutan Lega Samosir\", \"phone\": \"081519511961\", \"position\": \"Camat\", \"location\": \"Riau\"}}",
+      "meta_format": "json_log",
+      "meta_index": 103
+    }
+  },
+  {
+    "id": 104,
+    "data": {
+      "text": "Dalam meeting koordinasi, Tira Jailani (NIK 1521345306614390) sebagai Kepala Dinas Kesehatan dari Banjarmasin menyampaikan laporan. Beliau dapat dihubungi di +6285544441814 untuk keperluan tindak lanjut.",
+      "meta_format": "multi_context",
+      "meta_index": 104
+    }
+  },
+  {
+    "id": 105,
+    "data": {
+      "text": "PERMOHONAN AKSES SISTEM\n\nDari   : Mariadi Mahendra\nNIK    : 7753124904501455\nUnit   : Kepala Dinas Pendidikan\nKantor : Malang\nKontak : 081966023900\n\nMemohon akses sistem informasi kepegawaian.",
+      "meta_format": "gov_letter",
+      "meta_index": 105
+    }
+  },
+  {
+    "id": 106,
+    "data": {
+      "text": "Komunikasi internal: Staf Administrasi Tina Sihombing di Palembang (kontak 081596225531, NIK 8466244502532244) telah menyetujui permintaan dari rekan kerja.",
+      "meta_format": "multi_context",
+      "meta_index": 106
+    }
+  },
+  {
+    "id": 107,
+    "data": {
+      "text": "<2026-05-13 18:15> Helpdesk berbicara dengan Ciaobella Marbun (HP 085313854483, NIK 6330370704733954, Staf Administrasi di Manado)",
+      "meta_format": "cs_log",
+      "meta_index": 107
+    }
+  },
+  {
+    "id": 108,
+    "data": {
+      "text": "Hormat saya,\n\nIka Wahyuni\nAsisten Sekretaris Daerah\nKantor: Denpasar\nNIK: 1941566208608821\nHP: 085757202095",
+      "meta_format": "email_signature",
+      "meta_index": 108
+    }
+  },
+  {
+    "id": 109,
+    "data": {
+      "text": "Surat Keterangan No. 898/SK/2026\n\nKepala kantor menerangkan bahwa Sarah Maulana, S.Gz dengan NIK 3787924505893947 adalah benar bertugas sebagai Lurah di Tangerang. Yang bersangkutan dapat dihubungi pada nomor 085602133804.",
+      "meta_format": "gov_letter",
+      "meta_index": 109
+    }
+  },
+  {
+    "id": 110,
+    "data": {
+      "text": "Komunikasi internal: Lurah Kariman Maryati di Bali (kontak 085209492761, NIK 8907040502898943) telah menyetujui permintaan dari rekan kerja.",
+      "meta_format": "multi_context",
+      "meta_index": 110
+    }
+  },
+  {
+    "id": 111,
+    "data": {
+      "text": "Komunikasi internal: Kepala Bagian Umum Bakiono Ardianto di Bekasi (kontak 081872677077, NIK 9146112005798586) telah menyetujui permintaan dari rekan kerja.",
+      "meta_format": "multi_context",
+      "meta_index": 111
+    }
+  },
+  {
+    "id": 112,
+    "data": {
+      "text": "TICKET #8225 - 2026-05-29 18:15\nPelanggan: Kani Utama\nNIK: 2896414810772155\nKontak: 081235236918\nKota: Malang\nJabatan: Sekretaris Daerah",
+      "meta_format": "cs_log",
+      "meta_index": 112
+    }
+  },
+  {
+    "id": 113,
+    "data": {
+      "text": "nama|nik|telepon|jabatan|lokasi\nWani Najmudin|6554030212936619|+6281319159525|Lurah|Surabaya",
+      "meta_format": "tabular",
+      "meta_index": 113
+    }
+  },
+  {
+    "id": 114,
+    "data": {
+      "text": "Mohon konfirmasi dari Karma Suwarno (NIK: 5619590510871774, HP: 085709958897) selaku Kepala Dinas Kesehatan di Banjarmasin, mengenai permohonan akses dari Wardaya Permata, S.T. dengan NIK 1790275703926856.",
+      "meta_format": "multi_context",
+      "meta_index": 114
+    }
+  },
+  {
+    "id": 115,
+    "data": {
+      "text": "Best regards,\n\nR. Purwa Prakasa, M.Farm | Kepala Dinas Pendidikan\nLokasi: Pekanbaru\nID: 2286636102932461\nMobile: 085274884839",
+      "meta_format": "email_signature",
+      "meta_index": 115
+    }
+  },
+  {
+    "id": 116,
+    "data": {
+      "text": "{\"@timestamp\": \"2026-06-03T18:15:34.459432\", \"log_type\": \"audit\", \"action\": \"data_access\", \"actor\": {\"name\": \"Zalindra Wastuti, S.H.\", \"id\": \"3381165707688523\", \"phone\": \"+6285612465239\"}, \"metadata\": {\"department\": \"Asisten Sekretaris Daerah\", \"office\": \"Pekanbaru\"}}",
+      "meta_format": "json_log",
+      "meta_index": 116
+    }
+  },
+  {
+    "id": 117,
+    "data": {
+      "text": "Salam hangat,\nGangsar Ardianto\nNIK: 6024865210531182\nSekretaris Daerah - Bekasi\nTelepon: 085184522759",
+      "meta_format": "email_signature",
+      "meta_index": 117
+    }
+  },
+  {
+    "id": 118,
+    "data": {
+      "text": "5731|5486996606782788|Olivia Ramadan|Camat|Medan|+6282151033361",
+      "meta_format": "database_export",
+      "meta_index": 118
+    }
+  },
+  {
+    "id": 119,
+    "data": {
+      "text": "Dalam meeting koordinasi, Daryani Hariyah (NIK 5160415301735494) sebagai Staf Administrasi dari Medan menyampaikan laporan. Beliau dapat dihubungi di +6285398577958 untuk keperluan tindak lanjut.",
+      "meta_format": "multi_context",
+      "meta_index": 119
+    }
+  },
+  {
+    "id": 120,
+    "data": {
+      "text": "TICKET #3800 - 2026-05-31 18:15\nPelanggan: Uli Prabowo\nNIK: 2486241006505868\nKontak: 081227791257\nKota: Medan\nJabatan: Kepala Dinas Kesehatan",
+      "meta_format": "cs_log",
+      "meta_index": 120
+    }
+  },
+  {
+    "id": 121,
+    "data": {
+      "text": "4362|4470582603976340|Rahayu Laksmiwati|Staf Administrasi|Jawa Timur|085717453835",
+      "meta_format": "database_export",
+      "meta_index": 121
+    }
+  },
+  {
+    "id": 122,
+    "data": {
+      "text": "Surat Keterangan No. 983/SK/2026\n\nKepala kantor menerangkan bahwa Drs. Bakianto Riyanti dengan NIK 6584355710767701 adalah benar bertugas sebagai Camat di Bekasi. Yang bersangkutan dapat dihubungi pada nomor 081868431906.",
+      "meta_format": "gov_letter",
+      "meta_index": 122
+    }
+  },
+  {
+    "id": 123,
+    "data": {
+      "text": "Komunikasi internal: Kepala Bidang Anggaran Atma Kusmawati di Banjarmasin (kontak 082279954946, NIK 5672785607888033) telah menyetujui permintaan dari rekan kerja.",
+      "meta_format": "multi_context",
+      "meta_index": 123
+    }
+  },
+  {
+    "id": 124,
+    "data": {
+      "text": "Mohon konfirmasi dari Dt. Opan Kuswandari (NIK: 6837285512551815, HP: 085778021515) selaku Kepala Dinas Pendidikan di Manado, mengenai permohonan akses dari Jagapati Widodo dengan NIK 8321211201809782.",
+      "meta_format": "multi_context",
+      "meta_index": 124
+    }
+  },
+  {
+    "id": 125,
+    "data": {
+      "text": "<2026-05-23 18:15> Helpdesk berbicara dengan Almira Gunawan, S.Kom (HP +6285209347323, NIK 9298152009535103, Kepala Bagian Umum di Bekasi)",
+      "meta_format": "cs_log",
+      "meta_index": 125
+    }
+  },
+  {
+    "id": 126,
+    "data": {
+      "text": "[2026-05-07 18:15] LOG: Pelanggan drg. Danuja Mardhiyah, S.IP (NIK: 8232316110513384) menelepon dari nomor 085228207794. Domisili: Padang. Profesi: Staf Administrasi.",
+      "meta_format": "cs_log",
+      "meta_index": 126
+    }
+  },
+  {
+    "id": 127,
+    "data": {
+      "text": "| Nama | NIK | Telepon | Jabatan | Lokasi |\n|------|-----|---------|---------|--------|\n| Prabu Anggriawan | 7311412503809954 | 085684700542 | Sekretaris Daerah | Medan |",
+      "meta_format": "tabular",
+      "meta_index": 127
+    }
+  },
+  {
+    "id": 128,
+    "data": {
+      "text": "Komunikasi internal: Kepala Dinas Pendidikan Kamidin Salahudin di Jawa Timur (kontak 081751597752, NIK 5766182103857784) telah menyetujui permintaan dari rekan kerja.",
+      "meta_format": "multi_context",
+      "meta_index": 128
+    }
+  },
+  {
+    "id": 129,
+    "data": {
+      "text": "Best regards,\n\ndr. Fitria Wastuti, S.Pt | Kepala Dinas Pendidikan\nLokasi: Pontianak\nID: 5374485811764325\nMobile: 082384716649",
+      "meta_format": "email_signature",
+      "meta_index": 129
+    }
+  },
+  {
+    "id": 130,
+    "data": {
+      "text": "[2026-06-03 18:15:34] DB_INSERT: id=5526; nik=5544821408735364; nama=Ami Widiastuti; jabatan=Kepala Dinas Pendidikan; lokasi=Jakarta; telepon=085628986333",
+      "meta_format": "database_export",
+      "meta_index": 130
+    }
+  },
+  {
+    "id": 131,
+    "data": {
+      "text": "Komunikasi internal: Kepala Bidang Anggaran Dr. Gangsa Natsir di Malang (kontak 081848811944, NIK 4319496812687099) telah menyetujui permintaan dari rekan kerja.",
+      "meta_format": "multi_context",
+      "meta_index": 131
+    }
+  },
+  {
+    "id": 132,
+    "data": {
+      "text": "[2026-06-03 18:15:34] DB_INSERT: id=9682; nik=2654660602977369; nama=drg. Febi Anggraini, M.Farm; jabatan=Kepala Bagian Umum; lokasi=Bogor; telepon=082355922965",
+      "meta_format": "database_export",
+      "meta_index": 132
+    }
+  },
+  {
+    "id": 133,
+    "data": {
+      "text": "Yang bertanda tangan di bawah ini:\n\nNama         : Septi Rajasa\nNIK          : 4717662711724431\nJabatan      : Kepala Bagian Umum\nWilayah Kerja: Jakarta\nNo. Telepon  : 081558688847\n\ndengan ini menyatakan...",
+      "meta_format": "gov_letter",
+      "meta_index": 133
+    }
+  },
+  {
+    "id": 134,
+    "data": {
+      "text": "Dalam meeting koordinasi, Aurora Wibowo, M.Pd (NIK 2797915402600738) sebagai Staf Administrasi dari Depok menyampaikan laporan. Beliau dapat dihubungi di 081819461387 untuk keperluan tindak lanjut.",
+      "meta_format": "multi_context",
+      "meta_index": 134
+    }
+  },
+  {
+    "id": 135,
+    "data": {
+      "text": "INSERT INTO pegawai (id, nik, nama, jabatan, lokasi, telepon) VALUES (7622, '4999230111916932', 'Sutan Lukita Nasyidah', 'Asisten Sekretaris Daerah', 'Medan', '085141555155');",
+      "meta_format": "database_export",
+      "meta_index": 135
+    }
+  },
+  {
+    "id": 136,
+    "data": {
+      "text": "{\"@timestamp\": \"2026-06-03T18:15:34.463659\", \"log_type\": \"audit\", \"action\": \"data_access\", \"actor\": {\"name\": \"Tugiman Farida, S.E.\", \"id\": \"7055935810963087\", \"phone\": \"+6285628339530\"}, \"metadata\": {\"department\": \"Kepala Bagian Umum\", \"office\": \"Palembang\"}}",
+      "meta_format": "json_log",
+      "meta_index": 136
+    }
+  },
+  {
+    "id": 137,
+    "data": {
+      "text": "[2026-05-18 18:15] CS_AGENT: Validasi pelanggan - Nama: Luis Aryani, NIK: 4894275712692481, HP: 082144831569, Lokasi: Jawa Barat, Jabatan: Sekretaris Daerah",
+      "meta_format": "cs_log",
+      "meta_index": 137
+    }
+  },
+  {
+    "id": 138,
+    "data": {
+      "text": "Surat Keterangan No. 376/SK/2026\n\nKepala kantor menerangkan bahwa Dr. Chandra Wijaya, S.H. dengan NIK 6149421009690147 adalah benar bertugas sebagai Camat di Riau. Yang bersangkutan dapat dihubungi pada nomor 085534158198.",
+      "meta_format": "gov_letter",
+      "meta_index": 138
+    }
+  },
+  {
+    "id": 139,
+    "data": {
+      "text": "[2026-06-03 18:15:34] DB_INSERT: id=8100; nik=7753675307775713; nama=dr. Tami Maryadi; jabatan=Staf Administrasi; lokasi=Makassar; telepon=081497076595",
+      "meta_format": "database_export",
+      "meta_index": 139
+    }
+  },
+  {
+    "id": 140,
+    "data": {
+      "text": "{\"ts\":\"2026-06-03T18:15:34.456278\",\"msg\":\"User profile updated\",\"data\":{\"nik\":\"7809470712694939\",\"nama\":\"Indah Rahmawati, S.IP\",\"hp\":\"081200120414\",\"jbt\":\"Kepala Bagian Umum\",\"kt\":\"Malang\"}}",
+      "meta_format": "json_log",
+      "meta_index": 140
+    }
+  },
+  {
+    "id": 141,
+    "data": {
+      "text": "nama\tnik\ttelepon\tjabatan\tlokasi\nKanda Yulianti\t3895171202648066\t085250861330\tAsisten Sekretaris Daerah\tSemarang",
+      "meta_format": "tabular",
+      "meta_index": 141
+    }
+  },
+  {
+    "id": 142,
+    "data": {
+      "text": "nama\tnik\ttelepon\tjabatan\tlokasi\nDt. Rama Novitasari, S.E.I\t5722965910927874\t082198481191\tKepala Dinas Pendidikan\tBogor",
+      "meta_format": "tabular",
+      "meta_index": 142
+    }
+  },
+  {
+    "id": 143,
+    "data": {
+      "text": "nama,nik,telepon,jabatan,lokasi\nKH. Ridwan Padmasari,5451062303843834,+6281950709963,Kepala Bidang Anggaran,Riau",
+      "meta_format": "tabular",
+      "meta_index": 143
+    }
+  },
+  {
+    "id": 144,
+    "data": {
+      "text": "INSERT INTO pegawai (id, nik, nama, jabatan, lokasi, telepon) VALUES (2976, '4958781210780895', 'Ira Natsir, M.Pd', 'Asisten Sekretaris Daerah', 'Aceh', '085783139232');",
+      "meta_format": "database_export",
+      "meta_index": 144
+    }
+  },
+  {
+    "id": 145,
+    "data": {
+      "text": "Best regards,\n\nGatot Mustofa | Kepala Dinas Pendidikan\nLokasi: Makassar\nID: 6254666304618588\nMobile: +6281803342916",
+      "meta_format": "email_signature",
+      "meta_index": 145
+    }
+  },
+  {
+    "id": 146,
+    "data": {
+      "text": "INSERT INTO pegawai (id, nik, nama, jabatan, lokasi, telepon) VALUES (3465, '5458936505970889', 'dr. Harsana Usamah, S.IP', 'Lurah', 'Depok', '+6285539803662');",
+      "meta_format": "database_export",
+      "meta_index": 146
+    }
+  },
+  {
+    "id": 147,
+    "data": {
+      "text": "<2026-05-25 18:15> Helpdesk berbicara dengan Raihan Mustofa (HP +6285214367314, NIK 8530751710978926, Kepala Dinas Pendidikan di Banjarmasin)",
+      "meta_format": "cs_log",
+      "meta_index": 147
+    }
+  },
+  {
+    "id": 148,
+    "data": {
+      "text": "Surat Keterangan No. 333/SK/2024\n\nKepala kantor menerangkan bahwa Edi Setiawan dengan NIK 5263126502716937 adalah benar bertugas sebagai Kepala Bagian Umum di Bali. Yang bersangkutan dapat dihubungi pada nomor +6285381151029.",
+      "meta_format": "gov_letter",
+      "meta_index": 148
+    }
+  },
+  {
+    "id": 149,
+    "data": {
+      "text": "Yang bertanda tangan di bawah ini:\n\nNama         : Gangsa Nurdiyanti\nNIK          : 3397955501688931\nJabatan      : Staf Administrasi\nWilayah Kerja: Depok\nNo. Telepon  : +6281771862275\n\ndengan ini menyatakan...",
+      "meta_format": "gov_letter",
+      "meta_index": 149
+    }
+  },
+  {
+    "id": 150,
+    "data": {
+      "text": "Salam hangat,\nWidya Handayani, M.Ak\nNIK: 7279125204969387\nAsisten Sekretaris Daerah - Medan\nTelepon: 081431693227",
+      "meta_format": "email_signature",
+      "meta_index": 150
+    }
+  },
+  {
+    "id": 151,
+    "data": {
+      "text": "nama|nik|telepon|jabatan|lokasi\nSutan Jarwi Iswahyudi|5460721309935546|081432968056|Kepala Dinas Pendidikan|Jakarta",
+      "meta_format": "tabular",
+      "meta_index": 151
+    }
+  },
+  {
+    "id": 152,
+    "data": {
+      "text": "| Nama | NIK | Telepon | Jabatan | Lokasi |\n|------|-----|---------|---------|--------|\n| Jagaraga Wasita | 7105336509568154 | 082340656085 | Kepala Bidang Anggaran | Aceh |",
+      "meta_format": "tabular",
+      "meta_index": 152
+    }
+  },
+  {
+    "id": 153,
+    "data": {
+      "text": "PERMOHONAN AKSES SISTEM\n\nDari   : Puti Mutia Prastuti\nNIK    : 1761736105877257\nUnit   : Kepala Dinas Kesehatan\nKantor : Jawa Barat\nKontak : 085240915029\n\nMemohon akses sistem informasi kepegawaian.",
+      "meta_format": "gov_letter",
+      "meta_index": 153
+    }
+  },
+  {
+    "id": 154,
+    "data": {
+      "text": "[2026-05-29 18:15] LOG: Pelanggan Cut Maria Najmudin (NIK: 5523220907917557) menelepon dari nomor +6281740014294. Domisili: Jakarta. Profesi: Kepala Dinas Kesehatan.",
+      "meta_format": "cs_log",
+      "meta_index": 154
+    }
+  },
+  {
+    "id": 155,
+    "data": {
+      "text": "[2026-05-22 18:15] CS_AGENT: Validasi pelanggan - Nama: Ade Puspita, NIK: 4922670609957024, HP: 082220117534, Lokasi: Surabaya, Jabatan: Kepala Dinas Pendidikan",
+      "meta_format": "cs_log",
+      "meta_index": 155
+    }
+  },
+  {
+    "id": 156,
+    "data": {
+      "text": "Salam hangat,\nMulyanto Narpati, S.T.\nNIK: 7759364101996208\nSekretaris Daerah - Pontianak\nTelepon: 082298481268",
+      "meta_format": "email_signature",
+      "meta_index": 156
+    }
+  },
+  {
+    "id": 157,
+    "data": {
+      "text": "Dalam meeting koordinasi, R. Iriana Maheswara (NIK 9471152709808027) sebagai Asisten Sekretaris Daerah dari Riau menyampaikan laporan. Beliau dapat dihubungi di 081948955767 untuk keperluan tindak lanjut.",
+      "meta_format": "multi_context",
+      "meta_index": 157
+    }
+  },
+  {
+    "id": 158,
+    "data": {
+      "text": "{\"timestamp\": \"2026-06-03T18:15:34.460489\", \"level\": \"DEBUG\", \"service\": \"user-service\", \"event\": \"user_registration\", \"user\": {\"nik\": \"5261462005617913\", \"name\": \"R.A. Salwa Saptono\", \"phone\": \"082280100985\", \"position\": \"Camat\", \"location\": \"Bekasi\"}}",
+      "meta_format": "json_log",
+      "meta_index": 158
+    }
+  },
+  {
+    "id": 159,
+    "data": {
+      "text": "[2026-05-11 18:15] LOG: Pelanggan Fitria Wastuti (NIK: 1678992306974715) menelepon dari nomor +6285640996631. Domisili: Depok. Profesi: Kepala Dinas Kesehatan.",
+      "meta_format": "cs_log",
+      "meta_index": 159
+    }
+  },
+  {
+    "id": 160,
+    "data": {
+      "text": "Salam hangat,\nMarsudi Rajata\nNIK: 7492914807690679\nKepala Bagian Umum - Denpasar\nTelepon: 081591432253",
+      "meta_format": "email_signature",
+      "meta_index": 160
+    }
+  },
+  {
+    "id": 161,
+    "data": {
+      "text": "| Nama | NIK | Telepon | Jabatan | Lokasi |\n|------|-----|---------|---------|--------|\n| Tirta Maryadi, M.Farm | 6807262001662956 | 085740092409 | Kepala Bidang Anggaran | Pekanbaru |",
+      "meta_format": "tabular",
+      "meta_index": 161
+    }
+  },
+  {
+    "id": 162,
+    "data": {
+      "text": "{\"@timestamp\": \"2026-06-03T18:15:34.460489\", \"log_type\": \"audit\", \"action\": \"data_access\", \"actor\": {\"name\": \"drg. Cakrabirawa Kusumo\", \"id\": \"5684376412553301\", \"phone\": \"+6285501763602\"}, \"metadata\": {\"department\": \"Camat\", \"office\": \"Medan\"}}",
+      "meta_format": "json_log",
+      "meta_index": 162
+    }
+  },
+  {
+    "id": 163,
+    "data": {
+      "text": "Komunikasi internal: Kepala Dinas Pendidikan Darmaji Latupono di Palembang (kontak +6282336377591, NIK 2602474703589893) telah menyetujui permintaan dari rekan kerja.",
+      "meta_format": "multi_context",
+      "meta_index": 163
+    }
+  },
+  {
+    "id": 164,
+    "data": {
+      "text": "nama|nik|telepon|jabatan|lokasi\nDagel Maulana|8348415207830150|085512041206|Kepala Bidang Anggaran|Aceh",
+      "meta_format": "tabular",
+      "meta_index": 164
+    }
+  },
+  {
+    "id": 165,
+    "data": {
+      "text": "Hormat saya,\n\nHarjaya Sitompul\nKepala Dinas Pendidikan\nKantor: Jakarta\nNIK: 3709760908719755\nHP: 081300912636",
+      "meta_format": "email_signature",
+      "meta_index": 165
+    }
+  },
+  {
+    "id": 166,
+    "data": {
+      "text": "INSERT INTO pegawai (id, nik, nama, jabatan, lokasi, telepon) VALUES (7904, '1279952605750926', 'Puti Zahra Wibowo', 'Kepala Dinas Kesehatan', 'Makassar', '+6285233017111');",
+      "meta_format": "database_export",
+      "meta_index": 166
+    }
+  },
+  {
+    "id": 167,
+    "data": {
+      "text": "Yang bertanda tangan di bawah ini:\n\nNama         : drg. Mustofa Nashiruddin, S.I.Kom\nNIK          : 7698462402552150\nJabatan      : Kepala Dinas Kesehatan\nWilayah Kerja: Banjarmasin\nNo. Telepon  : 085198556502\n\ndengan ini menyatakan...",
+      "meta_format": "gov_letter",
+      "meta_index": 167
+    }
+  },
+  {
+    "id": 168,
+    "data": {
+      "text": "1672|4950640611757680|Ibrani Hutapea, S.I.Kom|Kepala Bagian Umum|Jawa Tengah|082397306234",
+      "meta_format": "database_export",
+      "meta_index": 168
+    }
+  },
+  {
+    "id": 169,
+    "data": {
+      "text": "nama,nik,telepon,jabatan,lokasi\nGadang Safitri, S.Psi,4213262601936472,081511455663,Kepala Dinas Pendidikan,Surabaya",
+      "meta_format": "tabular",
+      "meta_index": 169
+    }
+  },
+  {
+    "id": 170,
+    "data": {
+      "text": "Terima kasih,\n\nPrabawa Irawan (Kepala Bidang Anggaran)\n📧 NIK: 7067262001722116\n📱 +6285127928201\n📍 Bali",
+      "meta_format": "email_signature",
+      "meta_index": 170
+    }
+  },
+  {
+    "id": 171,
+    "data": {
+      "text": "INSERT INTO pegawai (id, nik, nama, jabatan, lokasi, telepon) VALUES (1768, '4631666506532352', 'Cut Jessica Wacana', 'Sekretaris Daerah', 'Bekasi', '085640558514');",
+      "meta_format": "database_export",
+      "meta_index": 171
+    }
+  },
+  {
+    "id": 172,
+    "data": {
+      "text": "BERITA ACARA - Pelaksanaan kegiatan dilakukan oleh Sdr/i Ir. Jane Narpati (NIK: 6203572510732177) selaku Camat pada wilayah kerja Palembang. Untuk koordinasi lebih lanjut, dapat menghubungi 085336907469.",
+      "meta_format": "gov_letter",
+      "meta_index": 172
+    }
+  },
+  {
+    "id": 173,
+    "data": {
+      "text": "TICKET #2266 - 2026-05-18 18:15\nPelanggan: dr. Vinsen Suryono, S.I.Kom\nNIK: 5238182110844288\nKontak: +6281121365436\nKota: Pontianak\nJabatan: Asisten Sekretaris Daerah",
+      "meta_format": "cs_log",
+      "meta_index": 173
+    }
+  },
+  {
+    "id": 174,
+    "data": {
+      "text": "[2026-06-03 18:15:34] DB_INSERT: id=7240; nik=2475106612530470; nama=Tedi Irawan; jabatan=Staf Administrasi; lokasi=Jakarta; telepon=+6282385764435",
+      "meta_format": "database_export",
+      "meta_index": 174
+    }
+  },
+  {
+    "id": 175,
+    "data": {
+      "text": "Mohon konfirmasi dari Prasetya Hutapea (NIK: 7925381910674881, HP: +6285166598491) selaku Camat di Banjarmasin, mengenai permohonan akses dari Tgk. Galur Maryadi, S.IP dengan NIK 5776835209969620.",
+      "meta_format": "multi_context",
+      "meta_index": 175
+    }
+  },
+  {
+    "id": 176,
+    "data": {
+      "text": "nama\tnik\ttelepon\tjabatan\tlokasi\nDamu Anggriawan\t8855166705773435\t+6285726519116\tKepala Dinas Pendidikan\tDenpasar",
+      "meta_format": "tabular",
+      "meta_index": 176
+    }
+  },
+  {
+    "id": 177,
+    "data": {
+      "text": "{\"ts\":\"2026-06-03T18:15:34.459432\",\"msg\":\"User profile updated\",\"data\":{\"nik\":\"9350464901767934\",\"nama\":\"Johan Novitasari\",\"hp\":\"081420637479\",\"jbt\":\"Kepala Bidang Anggaran\",\"kt\":\"Bandung\"}}",
+      "meta_format": "json_log",
+      "meta_index": 177
+    }
+  },
+  {
+    "id": 178,
+    "data": {
+      "text": "8156,4877704401974470,Irfan Suwarno,Asisten Sekretaris Daerah,Jawa Timur,082269423246",
+      "meta_format": "database_export",
+      "meta_index": 178
+    }
+  },
+  {
+    "id": 179,
+    "data": {
+      "text": "Komunikasi internal: Staf Administrasi Mustika Agustina, M.TI. di Depok (kontak 085639110342, NIK 4094111810906952) telah menyetujui permintaan dari rekan kerja.",
+      "meta_format": "multi_context",
+      "meta_index": 179
+    }
+  },
+  {
+    "id": 180,
+    "data": {
+      "text": "nama\tnik\ttelepon\tjabatan\tlokasi\nHj. Indah Yuniar\t8543486506814171\t+6285517764195\tLurah\tMedan",
+      "meta_format": "tabular",
+      "meta_index": 180
+    }
+  },
+  {
+    "id": 181,
+    "data": {
+      "text": "<2026-05-05 18:15> Helpdesk berbicara dengan Belinda Hutapea (HP 081926604190, NIK 4464535810587679, Asisten Sekretaris Daerah di Riau)",
+      "meta_format": "cs_log",
+      "meta_index": 181
+    }
+  },
+  {
+    "id": 182,
+    "data": {
+      "text": "6726,6327054604507869,Eluh Simbolon, S.I.Kom,Kepala Dinas Kesehatan,Jawa Tengah,085762330503",
+      "meta_format": "database_export",
+      "meta_index": 182
+    }
+  },
+  {
+    "id": 183,
+    "data": {
+      "text": "Komunikasi internal: Sekretaris Daerah Kayun Sihombing di Bekasi (kontak 081663852216, NIK 7973340710643345) telah menyetujui permintaan dari rekan kerja.",
+      "meta_format": "multi_context",
+      "meta_index": 183
+    }
+  },
+  {
+    "id": 184,
+    "data": {
+      "text": "{\"ts\":\"2026-06-03T18:15:34.459432\",\"msg\":\"User profile updated\",\"data\":{\"nik\":\"8707941106926532\",\"nama\":\"Maya Nuraini\",\"hp\":\"082110296187\",\"jbt\":\"Camat\",\"kt\":\"Bogor\"}}",
+      "meta_format": "json_log",
+      "meta_index": 184
+    }
+  },
+  {
+    "id": 185,
+    "data": {
+      "text": "Dalam meeting koordinasi, Yessi Winarsih (NIK 8604780206691874) sebagai Staf Administrasi dari Denpasar menyampaikan laporan. Beliau dapat dihubungi di 082273000321 untuk keperluan tindak lanjut.",
+      "meta_format": "multi_context",
+      "meta_index": 185
+    }
+  },
+  {
+    "id": 186,
+    "data": {
+      "text": "PERMOHONAN AKSES SISTEM\n\nDari   : dr. Violet Laksita, S.E.I\nNIK    : 7869675606590286\nUnit   : Kepala Dinas Pendidikan\nKantor : Pontianak\nKontak : 085587007542\n\nMemohon akses sistem informasi kepegawaian.",
+      "meta_format": "gov_letter",
+      "meta_index": 186
+    }
+  },
+  {
+    "id": 187,
+    "data": {
+      "text": "Surat Keterangan No. 799/SK/2025\n\nKepala kantor menerangkan bahwa Tgk. Siska Waluyo, S.Psi dengan NIK 1978921004918449 adalah benar bertugas sebagai Lurah di Yogyakarta. Yang bersangkutan dapat dihubungi pada nomor 082340135202.",
+      "meta_format": "gov_letter",
+      "meta_index": 187
+    }
+  },
+  {
+    "id": 188,
+    "data": {
+      "text": "{\"timestamp\": \"2026-06-03T18:15:34.460489\", \"level\": \"INFO\", \"service\": \"user-service\", \"event\": \"user_registration\", \"user\": {\"nik\": \"9239115505580831\", \"name\": \"Maras Astuti\", \"phone\": \"+6281727205315\", \"position\": \"Sekretaris Daerah\", \"location\": \"Bogor\"}}",
+      "meta_format": "json_log",
+      "meta_index": 188
+    }
+  },
+  {
+    "id": 189,
+    "data": {
+      "text": "Yang bertanda tangan di bawah ini:\n\nNama         : dr. Dirja Prastuti, S.T.\nNIK          : 6688321711977419\nJabatan      : Lurah\nWilayah Kerja: Manado\nNo. Telepon  : 081718832710\n\ndengan ini menyatakan...",
+      "meta_format": "gov_letter",
+      "meta_index": 189
+    }
+  },
+  {
+    "id": 190,
+    "data": {
+      "text": "Hormat saya,\n\nKala Siregar\nKepala Bidang Anggaran\nKantor: Yogyakarta\nNIK: 6132952704837616\nHP: 082213871639",
+      "meta_format": "email_signature",
+      "meta_index": 190
+    }
+  },
+  {
+    "id": 191,
+    "data": {
+      "text": "{\"@timestamp\": \"2026-06-03T18:15:34.460489\", \"log_type\": \"audit\", \"action\": \"data_access\", \"actor\": {\"name\": \"Prakosa Damanik, M.Pd\", \"id\": \"7180810811908470\", \"phone\": \"082270578070\"}, \"metadata\": {\"department\": \"Kepala Dinas Kesehatan\", \"office\": \"Bogor\"}}",
+      "meta_format": "json_log",
+      "meta_index": 191
+    }
+  },
+  {
+    "id": 192,
+    "data": {
+      "text": "nama|nik|telepon|jabatan|lokasi\nDr. Bakiman Habibi, S.IP|4924545001710560|+6285651007046|Camat|Jawa Timur",
+      "meta_format": "tabular",
+      "meta_index": 192
+    }
+  },
+  {
+    "id": 193,
+    "data": {
+      "text": "[2026-06-02 18:15] LOG: Pelanggan Ir. Langgeng Mangunsong (NIK: 5910136502554824) menelepon dari nomor 082308596332. Domisili: Bekasi. Profesi: Kepala Dinas Kesehatan.",
+      "meta_format": "cs_log",
+      "meta_index": 193
+    }
+  },
+  {
+    "id": 194,
+    "data": {
+      "text": "nama\tnik\ttelepon\tjabatan\tlokasi\nR.M. Luwar Maheswara\t1260780105949825\t081895054470\tKepala Dinas Kesehatan\tRiau",
+      "meta_format": "tabular",
+      "meta_index": 194
+    }
+  },
+  {
+    "id": 195,
+    "data": {
+      "text": "Salam hangat,\nEja Manullang\nNIK: 9119884601760908\nKepala Bagian Umum - Aceh\nTelepon: 081614671311",
+      "meta_format": "email_signature",
+      "meta_index": 195
+    }
+  },
+  {
+    "id": 196,
+    "data": {
+      "text": "BERITA ACARA - Pelaksanaan kegiatan dilakukan oleh Sdr/i Hilda Tampubolon, M.M. (NIK: 6331070611905077) selaku Kepala Dinas Kesehatan pada wilayah kerja Banjarmasin. Untuk koordinasi lebih lanjut, dapat menghubungi 081575540487.",
+      "meta_format": "gov_letter",
+      "meta_index": 196
+    }
+  },
+  {
+    "id": 197,
+    "data": {
+      "text": "[2026-05-21 18:15] LOG: Pelanggan Abyasa Uyainah (NIK: 1687102801704845) menelepon dari nomor 085638369420. Domisili: Semarang. Profesi: Staf Administrasi.",
+      "meta_format": "cs_log",
+      "meta_index": 197
+    }
+  },
+  {
+    "id": 198,
+    "data": {
+      "text": "BERITA ACARA - Pelaksanaan kegiatan dilakukan oleh Sdr/i Chandra Dongoran (NIK: 1402875406927968) selaku Asisten Sekretaris Daerah pada wilayah kerja Yogyakarta. Untuk koordinasi lebih lanjut, dapat menghubungi 082363625348.",
+      "meta_format": "gov_letter",
+      "meta_index": 198
+    }
+  },
+  {
+    "id": 199,
+    "data": {
+      "text": "nama|nik|telepon|jabatan|lokasi\nKawaca Utama, S.Pd|9301721009717419|085268598535|Staf Administrasi|Jakarta",
+      "meta_format": "tabular",
+      "meta_index": 199
+    }
+  },
+  {
+    "id": 200,
+    "data": {
+      "text": "Yang bertanda tangan di bawah ini:\n\nNama         : Chandra Mansur\nNIK          : 6623372511925068\nJabatan      : Sekretaris Daerah\nWilayah Kerja: Manado\nNo. Telepon  : 081928848984\n\ndengan ini menyatakan...",
+      "meta_format": "gov_letter",
+      "meta_index": 200
+    }
+  }
+]

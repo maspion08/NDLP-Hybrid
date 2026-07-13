@@ -1,6 +1,13 @@
 """
 Evaluate Hybrid CRF v2 di Holdout + Hard Adversarial
 Compare dengan CRF Murni dan Hybrid CRF v1
+
+[DIEDIT untuk Tugas Akhir - Bab IV Analisis Hasil]
+Tambahan dari versi asli (ditandai komentar "# === TAMBAHAN ==="):
+  1. print_full_report()           -> Precision/Recall/F1/TP/FP/FN lengkap per entitas
+  2. find_misclassified_examples() -> contoh kasus payload yang salah dideteksi
+Kedua fungsi ini dipanggil untuk CRF Murni dan Hybrid CRF v2 pada Holdout Set,
+supaya hasilnya bisa langsung dipakai mengisi Tabel error analysis di Bab IV.
 """
 import os
 import sys
@@ -17,9 +24,81 @@ features_v1 = import_module('07_features')
 evaluator = import_module('08_evaluator')
 
 
+# === TAMBAHAN: Precision/Recall/F1/TP/FP/FN lengkap per entitas ===
+def print_full_report(metrics, model_name):
+    """
+    Cetak tabel lengkap Precision, Recall, F1, TP, FP, FN per entitas.
+    Melengkapi evaluator.print_classification_report() yang sudah ada
+    (fungsi itu tidak menampilkan kolom TP/FP/FN, hanya P/R/F1/Support).
+    """
+    print(f"\n{'='*78}")
+    print(f"  FULL ERROR ANALYSIS REPORT - {model_name}")
+    print(f"{'='*78}")
+    print(f"  {'Entitas':<10}{'Precision':<12}{'Recall':<12}{'F1':<10}{'TP':<8}{'FP':<8}{'FN':<8}")
+    print("  " + "-"*68)
+    for ent in ['NIK', 'PHONE', 'NAMA', 'JABATAN', 'LOKASI']:
+        m = metrics.get(ent)
+        if m is None:
+            print(f"  {ent:<10}{'(tidak ada data)'}")
+            continue
+        print(f"  {ent:<10}{m['precision']:<12.4f}{m['recall']:<12.4f}{m['f1']:<10.4f}"
+              f"{m['tp']:<8}{m['fp']:<8}{m['fn']:<8}")
+    print("  " + "-"*68)
+    macro = metrics['_macro']
+    print(f"  {'Macro Avg':<10}{macro['precision']:<12.4f}{macro['recall']:<12.4f}{macro['f1']:<10.4f}")
+    print(f"{'='*78}\n")
+
+
+# === TAMBAHAN: pencari contoh kasus salah deteksi ===
+def find_misclassified_examples(tokens_seqs, y_true_seqs, y_pred_seqs, n=3, max_len=25):
+    """
+    Cari n contoh sampel yang mengandung minimal 1 kesalahan prediksi
+    (FP atau FN pada level entitas), untuk dijadikan contoh kasus kualitatif
+    di Bab IV (Analisis Hasil / Error Analysis).
+    """
+    print(f"\n{'='*78}")
+    print(f"  CONTOH KASUS SALAH DETEKSI (maks {n} sampel)")
+    print(f"{'='*78}")
+
+    found = 0
+    for i, (tokens, y_true, y_pred) in enumerate(zip(tokens_seqs, y_true_seqs, y_pred_seqs)):
+        if found >= n:
+            break
+        if y_true == y_pred:
+            continue
+        if len(tokens) > max_len:
+            continue  # skip payload terlalu panjang biar contohnya ringkas
+
+        true_ents = evaluator.extract_entities(tokens, y_true)
+        pred_ents = evaluator.extract_entities(tokens, y_pred)
+        true_set, pred_set = set(true_ents), set(pred_ents)
+        fn_ents = true_set - pred_set   # gagal terdeteksi
+        fp_ents = pred_set - true_set   # salah deteksi / halusinasi
+
+        if not fn_ents and not fp_ents:
+            continue  # perbedaan cuma di token 'O', bukan entitas -> skip
+
+        found += 1
+        print(f"\n--- Contoh #{found} (index {i}) ---")
+        print("Payload   :", ' '.join(tokens))
+        print("Label True:", y_true)
+        print("Label Pred:", y_pred)
+        if fn_ents:
+            print("False Negative (gagal terdeteksi):",
+                  [(e[0], e[1]) for e in fn_ents])
+        if fp_ents:
+            print("False Positive (salah deteksi)   :",
+                  [(e[0], e[1]) for e in fp_ents])
+
+    if found == 0:
+        print("  (Tidak ditemukan sampel dengan kesalahan pada rentang panjang ini."
+              " Coba naikkan max_len.)")
+    print(f"{'='*78}\n")
+
+
 def main():
     print("="*70)
-    print("  🎯 EVALUATE HYBRID CRF v2 vs CRF Murni vs Hybrid CRF v1")
+    print("  EVALUATE HYBRID CRF v2 vs CRF Murni vs Hybrid CRF v1")
     print("  Tugas Akhir: Arga Ariyuda Avian (2221101774)")
     print("="*70)
     
@@ -31,12 +110,12 @@ def main():
     print("="*70)
     
     df_holdout = pd.read_pickle('data/test_holdout/naturalistic_bio.pkl')
-    print(f"\n📂 Loaded: {len(df_holdout)} naturalistic samples")
+    print(f"\nLoaded: {len(df_holdout)} naturalistic samples")
     
     tokens_holdout = df_holdout['tokens'].tolist()
     
     # 1.1 CRF Murni
-    print("\n🤖 Evaluating CRF Murni on holdout...")
+    print("\nEvaluating CRF Murni on holdout...")
     with open('models/crf_pure.pkl', 'rb') as f:
         crf_pure = pickle.load(f)
     X_pure, y_true = features_v1.dataset_to_features(
@@ -47,7 +126,7 @@ def main():
     print(f"   CRF Murni F1: {metrics_pure['_macro']['f1']:.4f}")
     
     # 1.2 Hybrid CRF v1
-    print("\n🤖 Evaluating Hybrid CRF v1 on holdout...")
+    print("\nEvaluating Hybrid CRF v1 on holdout...")
     with open('models/hybrid_crf.pkl', 'rb') as f:
         crf_v1 = pickle.load(f)
     X_v1, _ = features_v1.dataset_to_features(
@@ -58,7 +137,7 @@ def main():
     print(f"   Hybrid CRF v1 F1: {metrics_v1['_macro']['f1']:.4f}")
     
     # 1.3 Hybrid CRF v2
-    print("\n🤖 Evaluating Hybrid CRF v2 on holdout...")
+    print("\nEvaluating Hybrid CRF v2 on holdout...")
     with open('models/hybrid_crf_v2.pkl', 'rb') as f:
         crf_v2 = pickle.load(f)
     X_v2, _ = features_v2.dataset_to_features_v2(
@@ -67,12 +146,19 @@ def main():
     y_pred_v2 = crf_v2.predict(X_v2)
     metrics_v2 = evaluator.compute_entity_metrics(y_true, y_pred_v2, tokens_holdout)
     print(f"   Hybrid CRF v2 F1: {metrics_v2['_macro']['f1']:.4f}")
+
+    # === TAMBAHAN: cetak laporan lengkap P/R/F1/TP/FP/FN untuk Bab IV ===
+    print_full_report(metrics_pure, "CRF Murni - Held-Out")
+    print_full_report(metrics_v2, "Hybrid CRF v2 - Held-Out")
+
+    # === TAMBAHAN: contoh kasus salah deteksi dari model final (Hybrid CRF v2) ===
+    find_misclassified_examples(tokens_holdout, y_true, y_pred_v2, n=3)
     
     # ============================================================
     # COMPARISON TABLE: HOLDOUT
     # ============================================================
     print("\n" + "="*70)
-    print("  📊 HOLDOUT COMPARISON")
+    print("  HOLDOUT COMPARISON")
     print("="*70)
     
     entities = ['NIK', 'PHONE', 'NAMA', 'JABATAN', 'LOKASI']
@@ -93,7 +179,7 @@ def main():
         print(f" {m['_macro']['f1']:>10.4f}")
     
     # Improvement analysis
-    print("\n  📈 IMPROVEMENT ANALYSIS:")
+    print("\n  IMPROVEMENT ANALYSIS:")
     imp_vs_pure = metrics_v2['_macro']['f1'] - metrics_pure['_macro']['f1']
     imp_vs_v1 = metrics_v2['_macro']['f1'] - metrics_v1['_macro']['f1']
     
@@ -101,9 +187,9 @@ def main():
     print(f"     v2 vs Hybrid v1  : {imp_vs_v1:+.4f} ({imp_vs_v1*100:+.2f}%)")
     
     if imp_vs_pure > 0:
-        print(f"\n  🏆 Hybrid CRF v2 MENANG di Holdout!")
+        print(f"\n  Hybrid CRF v2 MENANG di Holdout!")
     else:
-        print(f"\n  ⚠️ Hybrid CRF v2 belum mengalahkan CRF Murni di Holdout")
+        print(f"\n  Hybrid CRF v2 belum mengalahkan CRF Murni di Holdout")
     
     # ============================================================
     # PART 2: Hard Adversarial Evaluation
@@ -113,12 +199,12 @@ def main():
     print("="*70)
     
     if not os.path.exists('data/raw/hard_adversarial_bio.pkl'):
-        print("  ❌ Hard adversarial BIO not found.")
+        print("  Hard adversarial BIO not found.")
         print("     Run scripts/23_test_hard_adversarial.py first")
         return
     
     df_hard = pd.read_pickle('data/raw/hard_adversarial_bio.pkl')
-    print(f"\n📂 Loaded: {len(df_hard)} hard adversarial samples")
+    print(f"\nLoaded: {len(df_hard)} hard adversarial samples")
     
     # Compute FP rate per category for all 3 models
     categories = df_hard['category'].unique()
@@ -175,13 +261,13 @@ def main():
         
         return cat_results
     
-    print("\n🔮 Evaluating all 3 models on hard adversarial...")
+    print("\nEvaluating all 3 models on hard adversarial...")
     results_pure = evaluate_on_hard(crf_pure, 'CRF Murni', use_v2_features=False)
     results_v1 = evaluate_on_hard(crf_v1, 'Hybrid CRF v1', use_v2_features=False)
     results_v2 = evaluate_on_hard(crf_v2, 'Hybrid CRF v2', use_v2_features=True)
     
     # Comparison Table
-    print("\n  📊 HARD ADVERSARIAL COMPARISON")
+    print("\n  HARD ADVERSARIAL COMPARISON")
     print("  " + "-"*100)
     print(f"  {'Model':<18}", end="")
     for cat in categories:
@@ -201,12 +287,12 @@ def main():
             r = results[cat]
             if cat.startswith('context_free') or cat == 'near_pattern':
                 fp_rate = r['fp'] / r['total'] * 100
-                marker = '❌' if fp_rate > 30 else ('⚠️ ' if fp_rate > 10 else '✅')
+                marker = 'X' if fp_rate > 30 else ('!' if fp_rate > 10 else 'OK')
                 print(f" {marker}FP:{fp_rate:>4.1f}%       ", end="")
                 total_fp += r['fp']
             else:
                 tp_rate = r['tp'] / r['total'] * 100
-                marker = '✅' if tp_rate > 80 else ('⚠️ ' if tp_rate > 50 else '❌')
+                marker = 'OK' if tp_rate > 80 else ('!' if tp_rate > 50 else 'X')
                 print(f" {marker}TP:{tp_rate:>4.1f}%       ", end="")
                 total_tp += r['tp']
         
@@ -217,7 +303,7 @@ def main():
     # FINAL CONCLUSION
     # ============================================================
     print("\n" + "="*70)
-    print("  🏆 FINAL VERDICT: Hybrid CRF v2 Performance")
+    print("  FINAL VERDICT: Hybrid CRF v2 Performance")
     print("="*70)
     
     score_pure = sum([r['tp'] for c, r in results_pure.items() if not (c.startswith('context_free') or c == 'near_pattern')]) - \
@@ -232,24 +318,24 @@ def main():
     print(f"\n  HOLDOUT F1:")
     print(f"     CRF Murni      : {metrics_pure['_macro']['f1']:.4f}")
     print(f"     Hybrid CRF v1  : {metrics_v1['_macro']['f1']:.4f}")
-    print(f"     Hybrid CRF v2  : {metrics_v2['_macro']['f1']:.4f}  {'⭐ BEST' if metrics_v2['_macro']['f1'] >= max(metrics_pure['_macro']['f1'], metrics_v1['_macro']['f1']) else ''}")
+    print(f"     Hybrid CRF v2  : {metrics_v2['_macro']['f1']:.4f}  {'BEST' if metrics_v2['_macro']['f1'] >= max(metrics_pure['_macro']['f1'], metrics_v1['_macro']['f1']) else ''}")
     
     print(f"\n  HARD ADVERSARIAL SCORE:")
     print(f"     CRF Murni      : {score_pure:+d}")
     print(f"     Hybrid CRF v1  : {score_v1:+d}")
-    print(f"     Hybrid CRF v2  : {score_v2:+d}  {'⭐ BEST' if score_v2 >= max(score_pure, score_v1) else ''}")
+    print(f"     Hybrid CRF v2  : {score_v2:+d}  {'BEST' if score_v2 >= max(score_pure, score_v1) else ''}")
     
     print()
     if metrics_v2['_macro']['f1'] > metrics_pure['_macro']['f1'] and score_v2 > score_pure:
-        print("  🎉 SUCCESS: Hybrid CRF v2 MENGALAHKAN CRF Murni di BOTH metrics!")
-        print("     ✅ Hipotesis 'Hybrid > Murni' TERBUKTI dengan rich features!")
+        print("  SUCCESS: Hybrid CRF v2 MENGALAHKAN CRF Murni di BOTH metrics!")
+        print("     Hipotesis 'Hybrid > Murni' TERBUKTI dengan rich features!")
     elif metrics_v2['_macro']['f1'] > metrics_pure['_macro']['f1']:
-        print("  ✅ Hybrid CRF v2 menang di Holdout (out-of-distribution)")
+        print("  Hybrid CRF v2 menang di Holdout (out-of-distribution)")
     elif score_v2 > score_pure:
-        print("  ✅ Hybrid CRF v2 menang di Hard Adversarial (robustness)")
+        print("  Hybrid CRF v2 menang di Hard Adversarial (robustness)")
     else:
-        print("  ⚠️ Hybrid CRF v2 belum bisa mengalahkan CRF Murni")
-        print("     → Perlu investigasi lebih lanjut")
+        print("  Hybrid CRF v2 belum bisa mengalahkan CRF Murni")
+        print("     -> Perlu investigasi lebih lanjut")
     
     print("="*70)
     
@@ -266,10 +352,16 @@ def main():
                 'CRF_Murni_Score': score_pure,
                 'Hybrid_CRF_v1_Score': score_v1,
                 'Hybrid_CRF_v2_Score': score_v2,
+            },
+            # === TAMBAHAN: simpan juga P/R/F1/TP/FP/FN lengkap per entitas ===
+            'holdout_full_report': {
+                'CRF_Murni': {ent: metrics_pure[ent] for ent in ['NIK','PHONE','NAMA','JABATAN','LOKASI']},
+                'Hybrid_CRF_v2': {ent: metrics_v2[ent] for ent in ['NIK','PHONE','NAMA','JABATAN','LOKASI']},
             }
         }, f, indent=2)
     
-    print(f"\n  ✅ Results saved: {results_path}")
+    print(f"\n  Results saved: {results_path}")
+    print(f"  Full P/R/F1/TP/FP/FN report juga tersimpan di key 'holdout_full_report'")
 
 
 if __name__ == "__main__":
